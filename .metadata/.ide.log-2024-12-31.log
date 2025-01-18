@@ -1,0 +1,220 @@
+2024-12-31 11:41:20,429 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-12-31 11:41:22,370 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 2710mS.
+2024-12-31 11:41:22,373 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2024-12-31 11:41:22,378 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-31 11:43:58,753 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x123,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-31 11:44:33,129 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x123,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-31 11:45:02,260 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 533815120 Bytes (837812224)
+2024-12-31 11:45:03,961 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 583656320 Bytes (837812224)
+2024-12-31 11:45:04,226 [INFO] ProjectBuilder:2363 - IP not ready for code generation: FATFS
+2024-12-31 11:45:05,561 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FREERTOS
+2024-12-31 11:45:05,561 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SDIO
+2024-12-31 11:45:05,561 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-12-31 11:45:05,561 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-31 11:45:05,561 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-31 11:45:05,561 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-31 11:45:05,562 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-31 11:45:05,562 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DMA
+2024-12-31 11:45:05,562 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-31 11:45:05,562 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FATFS
+2024-12-31 11:45:05,563 [INFO] CodeGenerator:896 - code generatio: config db path: D:\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2024-12-31 11:45:05,587 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-12-31 11:45:05,587 [INFO] Argument:327 - 	 sub Args: 
+2024-12-31 11:45:05,587 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream3
+2024-12-31 11:45:05,588 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream3
+2024-12-31 11:45:05,588 [INFO] Argument:325 - Argument : Initvalue: null
+2024-12-31 11:45:05,588 [INFO] Argument:327 - 	 sub Args: 
+2024-12-31 11:45:05,588 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-12-31 11:45:05,588 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-12-31 11:45:05,588 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-12-31 11:45:05,588 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-12-31 11:45:05,588 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-12-31 11:45:05,588 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-12-31 11:45:05,588 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-12-31 11:45:05,588 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-12-31 11:45:05,588 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-12-31 11:45:05,588 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-12-31 11:45:05,588 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-12-31 11:45:05,588 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-12-31 11:45:05,588 [INFO] Argument:325 - Argument : Modevalue: DMA_PFCTRL
+2024-12-31 11:45:05,588 [INFO] Argument:335 - Argument : Modevalue: DMA_PFCTRL
+2024-12-31 11:45:05,588 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-12-31 11:45:05,588 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-12-31 11:45:05,588 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-12-31 11:45:05,588 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-12-31 11:45:05,588 [INFO] Argument:325 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-12-31 11:45:05,588 [INFO] Argument:335 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-12-31 11:45:05,589 [INFO] Argument:325 - Argument : MemBurstvalue: DMA_MBURST_INC4
+2024-12-31 11:45:05,589 [INFO] Argument:335 - Argument : MemBurstvalue: DMA_MBURST_INC4
+2024-12-31 11:45:05,589 [INFO] Argument:325 - Argument : PeriphBurstvalue: DMA_PBURST_INC4
+2024-12-31 11:45:05,589 [INFO] Argument:335 - Argument : PeriphBurstvalue: DMA_PBURST_INC4
+2024-12-31 11:45:05,589 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:325 - Argument : Statevalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:335 - Argument : Statevalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-12-31 11:45:05,589 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-12-31 11:45:05,590 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-12-31 11:45:05,590 [INFO] Argument:327 - 	 sub Args: 
+2024-12-31 11:45:05,590 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream6
+2024-12-31 11:45:05,590 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream6
+2024-12-31 11:45:05,590 [INFO] Argument:325 - Argument : Initvalue: null
+2024-12-31 11:45:05,590 [INFO] Argument:327 - 	 sub Args: 
+2024-12-31 11:45:05,590 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-12-31 11:45:05,590 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_4
+2024-12-31 11:45:05,590 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-12-31 11:45:05,590 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-12-31 11:45:05,590 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-12-31 11:45:05,590 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-12-31 11:45:05,590 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-12-31 11:45:05,591 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-12-31 11:45:05,591 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-12-31 11:45:05,591 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-12-31 11:45:05,591 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-12-31 11:45:05,591 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-12-31 11:45:05,591 [INFO] Argument:325 - Argument : Modevalue: DMA_PFCTRL
+2024-12-31 11:45:05,591 [INFO] Argument:335 - Argument : Modevalue: DMA_PFCTRL
+2024-12-31 11:45:05,591 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-12-31 11:45:05,591 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-12-31 11:45:05,591 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-12-31 11:45:05,591 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2024-12-31 11:45:05,591 [INFO] Argument:325 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-12-31 11:45:05,591 [INFO] Argument:335 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2024-12-31 11:45:05,591 [INFO] Argument:325 - Argument : MemBurstvalue: DMA_MBURST_INC4
+2024-12-31 11:45:05,591 [INFO] Argument:335 - Argument : MemBurstvalue: DMA_MBURST_INC4
+2024-12-31 11:45:05,591 [INFO] Argument:325 - Argument : PeriphBurstvalue: DMA_PBURST_INC4
+2024-12-31 11:45:05,591 [INFO] Argument:335 - Argument : PeriphBurstvalue: DMA_PBURST_INC4
+2024-12-31 11:45:05,591 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-12-31 11:45:05,591 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-12-31 11:45:05,591 [INFO] Argument:325 - Argument : Statevalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:335 - Argument : Statevalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-12-31 11:45:05,592 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-12-31 11:45:05,690 [INFO] IP:3366 - RTE template : app_blinky_callbacks_c.ftl
+2024-12-31 11:45:05,697 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp_save
+2024-12-31 11:45:05,989 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp
+2024-12-31 11:45:06,034 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp_save
+2024-12-31 11:45:06,241 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp
+2024-12-31 11:45:06,873 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-31 11:45:06,880 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-31 11:45:07,066 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-31 11:45:07,070 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-31 11:45:07,168 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-31 11:45:07,172 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-31 11:45:07,268 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-31 11:45:07,272 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-31 11:45:07,364 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-31 11:45:07,368 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-31 11:45:07,487 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-31 11:45:07,491 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-31 11:45:07,590 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-31 11:45:07,594 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-31 11:45:07,715 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-31 11:45:07,720 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-31 11:45:07,810 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-31 11:45:07,814 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-31 11:45:07,885 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-31 11:45:07,899 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-31 11:45:07,904 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_HalInit.tmp_save
+2024-12-31 11:45:08,009 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_HalInit.tmp
+2024-12-31 11:45:08,012 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_vars.tmp_save
+2024-12-31 11:45:08,072 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_vars.tmp
+2024-12-31 11:45:08,075 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_ext_vars.tmp_save
+2024-12-31 11:45:08,146 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_ext_vars.tmp
+2024-12-31 11:45:08,149 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_inc.tmp_save
+2024-12-31 11:45:08,216 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_inc.tmp
+2024-12-31 11:45:08,230 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-31 11:45:08,241 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-31 11:45:08,346 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-31 11:45:08,351 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-31 11:45:08,422 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-31 11:45:08,427 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-31 11:45:08,492 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-31 11:45:08,497 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-31 11:45:08,564 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-31 11:45:08,579 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-31 11:45:08,646 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-31 11:45:08,651 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-31 11:45:08,714 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-31 11:45:08,728 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-31 11:45:08,801 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-31 11:45:08,806 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-31 11:45:08,870 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-31 11:45:08,875 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-31 11:45:08,933 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-31 11:45:08,951 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h_save
+2024-12-31 11:45:09,083 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h
+2024-12-31 11:45:09,107 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\freertos.c_save
+2024-12-31 11:45:09,264 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\freertos.c
+2024-12-31 11:45:09,323 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\dma.tmp_save
+2024-12-31 11:45:09,457 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\dma.tmp
+2024-12-31 11:45:09,460 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\dma_GV.tmp_save
+2024-12-31 11:45:09,531 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\dma_GV.tmp
+2024-12-31 11:45:09,538 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-31 11:45:09,545 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_HalInit.tmp_save
+2024-12-31 11:45:09,633 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_HalInit.tmp
+2024-12-31 11:45:09,637 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_vars.tmp_save
+2024-12-31 11:45:09,700 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_vars.tmp
+2024-12-31 11:45:09,704 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_ext_vars.tmp_save
+2024-12-31 11:45:09,768 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_ext_vars.tmp
+2024-12-31 11:45:09,771 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_inc.tmp_save
+2024-12-31 11:45:09,833 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_inc.tmp
+2024-12-31 11:45:09,852 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\Target\ffconf.h_save
+2024-12-31 11:45:10,001 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\Target\ffconf.h
+2024-12-31 11:45:10,037 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\Target\bsp_driver_sd.c_save
+2024-12-31 11:45:10,152 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\Target\bsp_driver_sd.c
+2024-12-31 11:45:10,167 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\Target\bsp_driver_sd.h_save
+2024-12-31 11:45:10,228 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\Target\bsp_driver_sd.h
+2024-12-31 11:45:10,233 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\Target\sd_diskio.h_save
+2024-12-31 11:45:10,298 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\Target\sd_diskio.h
+2024-12-31 11:45:10,314 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\Target\sd_diskio.c_save
+2024-12-31 11:45:10,422 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\Target\sd_diskio.c
+2024-12-31 11:45:10,427 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\App\fatfs.c_save
+2024-12-31 11:45:10,497 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\App\fatfs.c
+2024-12-31 11:45:10,510 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\App\fatfs.h_save
+2024-12-31 11:45:10,582 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\App\fatfs.h
+2024-12-31 11:45:10,620 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c_save
+2024-12-31 11:45:10,719 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c
+2024-12-31 11:45:10,723 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h_save
+2024-12-31 11:45:10,787 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h
+2024-12-31 11:45:10,820 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2024-12-31 11:45:10,975 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c
+2024-12-31 11:45:10,990 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp_save
+2024-12-31 11:45:11,049 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp
+2024-12-31 11:45:11,068 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-12-31 11:45:11,138 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-12-31 11:45:11,162 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-12-31 11:45:11,281 [INFO] CodeEngine:335 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2024-12-31 11:45:11,323 [WARN] IPConfigManager:3618 - IP not found : TIM
+2024-12-31 11:45:11,324 [WARN] CodeGenerator:4152 - IP not found : null
+2024-12-31 11:45:11,349 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\main.h_save
+2024-12-31 11:45:11,435 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\main.h
+2024-12-31 11:45:11,452 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\main.c_save
+2024-12-31 11:45:11,616 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\main.c
+2024-12-31 11:45:12,192 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 275mS.
+2024-12-31 11:45:12,199 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2024-12-31 11:45:12,291 [INFO] ConfigFileManager:1579 - The Die is : DIE413
+2024-12-31 11:45:13,640 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 1442mS.
+2024-12-31 11:45:13,641 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-31 11:45:13,647 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-31 17:47:38,691 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

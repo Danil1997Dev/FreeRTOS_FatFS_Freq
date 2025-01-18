@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RTOS/Core/Src/sys_clk_cnfg&apos; to &apos;sys_clk_cnfg.c&apos;" description="Rename resource &apos;sys_clk_cnfg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/sys_clk_cnfg" name="sys_clk_cnfg.c" stamp="1735627455395" updateReferences="true"/>
+</session>

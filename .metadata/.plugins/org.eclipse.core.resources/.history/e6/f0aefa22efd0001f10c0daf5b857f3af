@@ -1,0 +1,132 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file   fatfs.c
+  * @brief  Code for fatfs applications
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2024 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+#include "printf_uart.h"
+/* USER CODE END Header */
+#include "fatfs.h"
+
+uint8_t retSD;    /* Return value for SD */
+char SDPath[4];   /* SD logical drive path */
+FATFS SDFatFS;    /* File system object for SD logical drive */
+FIL SDFile;       /* File object for SD */
+
+/* USER CODE BEGIN Variables */
+extern UART_HandleTypeDef huart3;
+/* USER CODE END Variables */
+
+void MX_FATFS_Init(void)
+{
+  /*## FatFS: Link the SD driver ###########################*/
+  retSD = FATFS_LinkDriver(&SD_Driver, SDPath);
+
+  /* USER CODE BEGIN Init */
+if (retSD != FR_OK)
+{
+	HAL_UART_Transmit(&huart3, (uint8_t *)"Fail of link\r\n\a", sizeof("Fail of link\r\n\a"), 0xffff);
+}
+  /* USER CODE END Init */
+}
+
+/**
+  * @brief  Gets Time from RTC
+  * @param  None
+  * @retval Time in DWORD
+  */
+DWORD get_fattime(void)
+{
+  /* USER CODE BEGIN get_fattime */
+  return 0;
+  /* USER CODE END get_fattime */
+}
+
+/* USER CODE BEGIN Application */
+FRESULT mount_fs(FATFS *fs, uint8_t opt)
+{
+	FRESULT res;
+	DWORD sizeClaster;
+	FATFS* pfs = fs;
+
+	if (opt)
+	{
+		    portTICK_TYPE_ENTER_CRITICAL();
+		    {
+			res = f_mount(fs, (TCHAR const*)SDPath, FS_MOUNT);
+		    }
+			portTICK_TYPE_EXIT_CRITICAL();
+			if (res != FR_OK)
+			{
+				UART_Printf("Fail of mount\r\n\a");
+				return res;
+			}
+			UART_Printf("Mount success\r\n");
+			DWORD sizeClaster;
+
+			res = f_getfree((TCHAR const*)SDPath, &sizeClaster, &pfs);
+			if (res == FR_OK)
+			{
+				UART_Printf("free size = %d\r\n", sizeClaster);
+			}
+
+	}
+	else
+	{
+	    portTICK_TYPE_ENTER_CRITICAL();
+	    {
+		res = f_mount(NULL, (TCHAR const*)SDPath, FS_MOUNT);
+		}
+		portTICK_TYPE_EXIT_CRITICAL();
+		if (res != FR_OK)
+		{
+			UART_Printf("Fail of unmount\r\n\a");
+			return res;
+		}
+
+		UART_Printf("Unmount was success\r\n");
+	}
+	return res;
+}
+
+FRESULT write_fs(uint8_t *name, uint8_t *text)
+{
+	FRESULT res;
+
+    FIL logFile;
+
+    res = f_open(&logFile, (char *)name, FA_OPEN_APPEND | FA_WRITE);
+    if(res != FR_OK) {
+        UART_Printf("f_open() failed, res = %d\r\n", res);
+    }
+
+    unsigned int bytesWritten;
+    res = f_write(&logFile, text, sizeof(text), &bytesWritten);
+    if(res != FR_OK) {
+        UART_Printf("f_write() failed, res = %d\r\n", res);
+    }
+
+    res = f_close(&logFile);
+    if(res != FR_OK) {
+        UART_Printf("f_close() failed, res = %d\r\n", res);
+    }
+
+    UART_Printf("In file '");
+    UART_Printf((char *)name);
+    UART_Printf("' was writhed %u letters\r\n", (int)strlen(text));
+
+    return res;
+}
+
+/* USER CODE END Application */

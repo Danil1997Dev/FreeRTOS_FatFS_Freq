@@ -1,0 +1,14 @@
+CustomFiltersActionGroup.org.eclipse.cdt.ui.COutlinePage.TAG_DUMMY_TO_TEST_EXISTENCE=storedViewPreferences
+CustomFiltersActionGroup.org.eclipse.cdt.ui.COutlinePage.userDefinedPatterns=user
+MemberFilterActionGroup.COutlineViewer.16=true
+eclipse.preferences.version=1
+lastRecentlyUsedFilters=org.eclipse.cdt.ui.COutlinePage.UsingDeclarationFilter,org.eclipse.cdt.ui.COutlinePage.MacroDirectiveFilter,org.eclipse.cdt.ui.COutlinePage.ForwardDeclarationFilter,
+org.eclipse.cdt.ui.outline.groupincludes=true
+org.eclipse.cdt.ui.outline.groupmacros=true
+org.eclipse.cdt.ui.outline.groupnamespaces=true
+org.eclipse.cdt.ui.outline.hidePragmaMark=true
+org.eclipse.cdt.ui.outline.linktoeditor=false
+scalability.reconciler=false
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

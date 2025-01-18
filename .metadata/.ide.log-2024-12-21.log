@@ -1,0 +1,425 @@
+2024-12-21 21:19:41,061 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.IndexOutOfBoundsException: Index 113 out of bounds for length 113
+2024-12-21 21:19:41,179 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+2024-12-21 21:19:41,184 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+2024-12-21 21:19:41,187 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+2024-12-21 21:19:41,189 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+2024-12-21 21:19:41,191 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+2024-12-21 21:19:41,196 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.CategoriesPane.updateIPsColorsAndIcons(CategoriesPane.java:283)
+2024-12-21 21:19:41,202 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.propertyChange(PeripheralsSelectionPanel.java:757)
+2024-12-21 21:19:41,206 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2024-12-21 21:19:41,209 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2024-12-21 21:19:41,213 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.propertyChange(MxSystem.java:473)
+2024-12-21 21:19:41,215 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2024-12-21 21:19:41,220 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2024-12-21 21:19:41,223 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mcu.Mcu.propertyChange(Mcu.java:1737)
+2024-12-21 21:19:41,226 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2024-12-21 21:19:41,229 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2024-12-21 21:19:41,232 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.refreshing(MXPropertyChangeSupport.java:72)
+2024-12-21 21:19:41,236 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mcu.Mcu.refreshingMcu(Mcu.java:6110)
+2024-12-21 21:19:41,238 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mcu.RCCService.refreshing(RCCService.java:346)
+2024-12-21 21:19:41,242 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.clock.gui.ActiveOutputUI.keyPressed(ActiveOutputUI.java:751)
+2024-12-21 21:19:41,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.keyPressed(AWTEventMulticaster.java:257)
+2024-12-21 21:19:41,247 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processKeyEvent(Component.java:6579)
+2024-12-21 21:19:41,250 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2905)
+2024-12-21 21:19:41,253 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6398)
+2024-12-21 21:19:41,255 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2024-12-21 21:19:41,258 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+2024-12-21 21:19:41,260 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2024-12-21 21:19:41,262 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2024-12-21 21:19:41,265 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952)
+2024-12-21 21:19:41,268 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883)
+2024-12-21 21:19:41,272 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146)
+2024-12-21 21:19:41,276 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020)
+2024-12-21 21:19:41,278 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848)
+2024-12-21 21:19:41,281 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4877)
+2024-12-21 21:19:41,283 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2024-12-21 21:19:41,285 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2024-12-21 21:19:41,287 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2024-12-21 21:19:41,290 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-12-21 21:19:41,292 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-12-21 21:19:41,295 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2024-12-21 21:19:41,297 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2024-12-21 21:19:41,301 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+2024-12-21 21:19:41,303 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2024-12-21 21:19:41,305 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-12-21 21:19:41,307 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2024-12-21 21:19:41,311 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2024-12-21 21:19:41,313 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2024-12-21 21:19:41,315 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-12-21 21:19:41,318 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-12-21 21:19:41,321 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-12-21 21:19:41,323 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-12-21 21:19:41,325 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-12-21 21:19:41,327 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-12-21 21:31:11,226 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 542180104 Bytes (1073741824)
+2024-12-21 21:31:11,560 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 604058928 Bytes (1073741824)
+2024-12-21 21:31:12,276 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FREERTOS
+2024-12-21 21:31:12,276 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-12-21 21:31:12,276 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-21 21:31:12,276 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-21 21:31:12,277 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-21 21:31:12,277 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-21 21:31:12,277 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-21 21:31:12,279 [INFO] CodeGenerator:896 - code generatio: config db path: D:\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2024-12-21 21:31:12,614 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp_save
+2024-12-21 21:31:13,089 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp
+2024-12-21 21:31:13,247 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp_save
+2024-12-21 21:31:13,508 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp
+2024-12-21 21:31:13,897 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-21 21:31:13,921 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-21 21:31:14,116 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-21 21:31:14,129 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-21 21:31:14,301 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-21 21:31:14,315 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-21 21:31:14,476 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-21 21:31:14,492 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-21 21:31:14,668 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-21 21:31:14,690 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-21 21:31:14,898 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-21 21:31:14,923 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-21 21:31:15,060 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-21 21:31:15,078 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-21 21:31:15,211 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-21 21:31:15,241 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-21 21:31:15,379 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-21 21:31:15,409 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-21 21:31:15,539 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-21 21:31:15,557 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-21 21:31:15,569 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-21 21:31:15,695 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-21 21:31:15,701 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-21 21:31:15,794 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-21 21:31:15,799 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-21 21:31:15,883 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-21 21:31:15,888 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-21 21:31:15,977 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-21 21:31:15,998 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-21 21:31:16,086 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-21 21:31:16,092 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-21 21:31:16,176 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-21 21:31:16,197 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-21 21:31:16,293 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-21 21:31:16,300 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-21 21:31:16,380 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-21 21:31:16,386 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-21 21:31:16,472 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-21 21:31:16,506 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h_save
+2024-12-21 21:31:16,699 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h
+2024-12-21 21:31:16,741 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\freertos.c_save
+2024-12-21 21:31:16,938 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\freertos.c
+2024-12-21 21:31:16,991 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c_save
+2024-12-21 21:31:17,328 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c
+2024-12-21 21:31:17,362 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h_save
+2024-12-21 21:31:17,500 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h
+2024-12-21 21:31:17,566 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2024-12-21 21:31:17,784 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c
+2024-12-21 21:31:17,803 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp_save
+2024-12-21 21:31:17,897 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp
+2024-12-21 21:31:17,934 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-12-21 21:31:18,071 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-12-21 21:31:18,115 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-12-21 21:31:18,234 [INFO] CodeEngine:335 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2024-12-21 21:31:18,287 [INFO] ApiDbMcu:508 - Load IP Config File for TIM5
+2024-12-21 21:31:18,291 [INFO] ApiDbMcu:508 - Load IP Config File for USART3
+2024-12-21 21:31:18,294 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2024-12-21 21:31:18,297 [WARN] IPConfigManager:3618 - IP not found : TIM
+2024-12-21 21:31:18,297 [WARN] CodeGenerator:4152 - IP not found : null
+2024-12-21 21:31:18,349 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\main.h_save
+2024-12-21 21:31:18,492 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\main.h
+2024-12-21 21:31:18,523 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\main.c_save
+2024-12-21 21:31:18,723 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\main.c
+2024-12-21 21:31:19,325 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 309mS.
+2024-12-21 21:31:19,330 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2024-12-21 21:31:19,447 [INFO] ConfigFileManager:1579 - The Die is : DIE413
+2024-12-21 21:31:19,462 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-12-21 21:31:19,476 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-12-21 21:31:19,493 [INFO] ApiDbMcu:508 - Load IP Config File for LWIP
+2024-12-21 21:31:19,516 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-12-21 21:31:19,546 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-12-21 21:31:19,566 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2024-12-21 21:31:22,792 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 3462mS.
+2024-12-21 21:31:22,793 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2024-12-21 21:31:22,797 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-21 22:21:02,491 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 470246256 Bytes (1073741824)
+2024-12-21 22:21:02,938 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FREERTOS
+2024-12-21 22:21:02,938 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-12-21 22:21:02,938 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-21 22:21:02,939 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-21 22:21:02,939 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-21 22:21:02,939 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-21 22:21:02,940 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-21 22:21:02,941 [INFO] CodeGenerator:896 - code generatio: config db path: D:\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2024-12-21 22:21:03,151 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp_save
+2024-12-21 22:21:03,709 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp
+2024-12-21 22:21:03,769 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp_save
+2024-12-21 22:21:04,157 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp
+2024-12-21 22:21:04,682 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-21 22:21:04,696 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-21 22:21:04,906 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-21 22:21:04,914 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-21 22:21:05,091 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-21 22:21:05,099 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-21 22:21:05,261 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-21 22:21:05,267 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-21 22:21:05,432 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-21 22:21:05,452 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-21 22:21:05,638 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-21 22:21:05,644 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-21 22:21:05,808 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-21 22:21:05,828 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-21 22:21:05,967 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-21 22:21:05,974 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-21 22:21:06,083 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-21 22:21:06,088 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-21 22:21:06,195 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-21 22:21:06,213 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-21 22:21:06,225 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-21 22:21:06,362 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-21 22:21:06,368 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-21 22:21:06,458 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-21 22:21:06,464 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-21 22:21:06,558 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-21 22:21:06,564 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-21 22:21:06,653 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-21 22:21:06,674 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-21 22:21:06,778 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-21 22:21:06,785 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-21 22:21:06,873 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-21 22:21:06,893 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-21 22:21:06,982 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-21 22:21:06,987 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-21 22:21:07,080 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-21 22:21:07,085 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-21 22:21:07,174 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-21 22:21:07,210 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h_save
+2024-12-21 22:21:07,412 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h
+2024-12-21 22:21:07,459 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\freertos.c_save
+2024-12-21 22:21:07,588 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\freertos.c
+2024-12-21 22:21:07,646 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c_save
+2024-12-21 22:21:07,902 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c
+2024-12-21 22:21:07,909 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h_save
+2024-12-21 22:21:08,008 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h
+2024-12-21 22:21:08,062 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2024-12-21 22:21:08,247 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c
+2024-12-21 22:21:08,254 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp_save
+2024-12-21 22:21:08,337 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp
+2024-12-21 22:21:08,377 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-12-21 22:21:08,482 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-12-21 22:21:08,528 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-12-21 22:21:08,689 [INFO] CodeEngine:335 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2024-12-21 22:21:08,742 [WARN] IPConfigManager:3618 - IP not found : TIM
+2024-12-21 22:21:08,742 [WARN] CodeGenerator:4152 - IP not found : null
+2024-12-21 22:21:08,795 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\main.h_save
+2024-12-21 22:21:08,946 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\main.h
+2024-12-21 22:21:08,991 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\main.c_save
+2024-12-21 22:21:09,243 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\main.c
+2024-12-21 22:21:09,998 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 309mS.
+2024-12-21 22:21:10,003 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2024-12-21 22:21:10,126 [INFO] ConfigFileManager:1579 - The Die is : DIE413
+2024-12-21 22:21:12,937 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 2934mS.
+2024-12-21 22:21:12,938 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2024-12-21 22:21:12,943 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-21 22:31:08,042 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 491130848 Bytes (1073741824)
+2024-12-21 22:31:08,564 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FREERTOS
+2024-12-21 22:31:08,564 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-12-21 22:31:08,564 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-21 22:31:08,564 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-21 22:31:08,564 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-21 22:31:08,564 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-21 22:31:08,565 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-21 22:31:08,566 [INFO] CodeGenerator:896 - code generatio: config db path: D:\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2024-12-21 22:31:08,727 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp_save
+2024-12-21 22:31:08,996 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp
+2024-12-21 22:31:09,044 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp_save
+2024-12-21 22:31:09,251 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp
+2024-12-21 22:31:09,590 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-21 22:31:09,602 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-21 22:31:09,765 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-21 22:31:09,770 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-21 22:31:09,895 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-21 22:31:09,901 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-21 22:31:10,012 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-21 22:31:10,018 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-21 22:31:10,147 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-21 22:31:10,152 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-21 22:31:10,281 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-21 22:31:10,286 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-21 22:31:10,397 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-21 22:31:10,403 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-21 22:31:10,535 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-21 22:31:10,539 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-21 22:31:10,632 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-21 22:31:10,637 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-21 22:31:10,728 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-21 22:31:10,745 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-21 22:31:10,758 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-21 22:31:10,894 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-21 22:31:10,900 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-21 22:31:10,988 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-21 22:31:10,994 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-21 22:31:11,086 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-21 22:31:11,092 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-21 22:31:11,191 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-21 22:31:11,218 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-21 22:31:11,317 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-21 22:31:11,324 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-21 22:31:11,415 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-21 22:31:11,436 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-21 22:31:11,536 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-21 22:31:11,542 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-21 22:31:11,631 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-21 22:31:11,637 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-21 22:31:11,729 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-21 22:31:11,751 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h_save
+2024-12-21 22:31:11,948 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h
+2024-12-21 22:31:11,977 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\freertos.c_save
+2024-12-21 22:31:12,107 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\freertos.c
+2024-12-21 22:31:12,151 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c_save
+2024-12-21 22:31:12,276 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c
+2024-12-21 22:31:12,284 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h_save
+2024-12-21 22:31:12,391 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h
+2024-12-21 22:31:12,432 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2024-12-21 22:31:12,584 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c
+2024-12-21 22:31:12,589 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp_save
+2024-12-21 22:31:12,674 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp
+2024-12-21 22:31:12,696 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-12-21 22:31:12,806 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-12-21 22:31:12,837 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-12-21 22:31:12,994 [INFO] CodeEngine:335 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2024-12-21 22:31:13,044 [WARN] IPConfigManager:3618 - IP not found : TIM
+2024-12-21 22:31:13,045 [WARN] CodeGenerator:4152 - IP not found : null
+2024-12-21 22:31:13,080 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\main.h_save
+2024-12-21 22:31:13,202 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\main.h
+2024-12-21 22:31:13,224 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\main.c_save
+2024-12-21 22:31:13,443 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\main.c
+2024-12-21 22:31:14,009 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 260mS.
+2024-12-21 22:31:14,015 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2024-12-21 22:31:14,150 [INFO] ConfigFileManager:1579 - The Die is : DIE413
+2024-12-21 22:31:16,064 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 2049mS.
+2024-12-21 22:31:16,065 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2024-12-21 22:31:16,069 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-21 22:58:16,658 [FATAL] LogicalParser:268 - Exception caught expression :RCC_NOT_USED
+java.lang.NullPointerException: Cannot invoke "com.bestcode.mathparser.Node.getValue()" because "this.m_Node" is null
+	at com.bestcode.mathparser.MathParserImpl.evaluate(MathParserImpl.java:325) ~[STM32CubeMX.jar:?]
+	at com.bestcode.mathparser.MathParserImpl.getValue(MathParserImpl.java:255) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.util.LogicalParser.checkCondition(LogicalParser.java:266) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mcu.IP.getAllModesSet(IP.java:2810) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mcu.IP.isHalSupported(IP.java:5451) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mcu.NVICService.ipIsHalSupported(NVICService.java:1779) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mcu.NVICService.getVector(NVICService.java:1398) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mcu.NVICService.isInterruptSupported(NVICService.java:3305) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.ip.nvic.Nvic.isCommonComponentSupported(Nvic.java:237) ~[?:?]
+	at com.st.microxplorer.util.CommonComponent.isCommonComponentSupported(CommonComponent.java:50) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.ipmanager.generictreatment.model.ParamManager.fetchSharedComponentsDependency(ParamManager.java:155) ~[ipmanager.jar:?]
+	at com.st.microxplorer.plugins.ipmanager.generictreatment.model.ParamManager.fetchSharedComponents(ParamManager.java:204) ~[ipmanager.jar:?]
+	at com.st.microxplorer.plugins.ipmanager.generictreatment.gui.MainPanel.<init>(MainPanel.java:167) ~[ipmanager.jar:?]
+	at com.st.microxplorer.plugins.ip.genericplugin.GenericPlugin.getUI(GenericPlugin.java:48) ~[?:?]
+	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.createIpPanel(BlockDiagram.java:424) ~[ipmanager.jar:?]
+	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:574) ~[ipmanager.jar:?]
+	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:480) ~[ipmanager.jar:?]
+	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.propertyChange(BlockDiagram.java:1423) ~[ipmanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.MxFirePropertyChange(MxSystem.java:219) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.clock.gui.MultiplexerUI$2.done(MultiplexerUI.java:508) ~[?:?]
+	at javax.swing.SwingWorker$4.run(SwingWorker.java:749) ~[?:?]
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:847) ~[?:?]
+	at sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112) ~[?:?]
+	at javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:857) ~[?:?]
+	at javax.swing.Timer.fireActionPerformed(Timer.java:311) ~[?:?]
+	at javax.swing.Timer$DoPostEvent.run(Timer.java:243) ~[?:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2024-12-21 22:58:20,616 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 640286488 Bytes (1073741824)
+2024-12-21 22:58:20,997 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FREERTOS
+2024-12-21 22:58:20,997 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-12-21 22:58:20,997 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-21 22:58:20,997 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-21 22:58:20,997 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-21 22:58:20,998 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-21 22:58:20,999 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-21 22:58:21,001 [INFO] CodeGenerator:896 - code generatio: config db path: D:\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2024-12-21 22:58:21,172 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp_save
+2024-12-21 22:58:21,616 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp
+2024-12-21 22:58:21,650 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp_save
+2024-12-21 22:58:21,892 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp
+2024-12-21 22:58:22,258 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-21 22:58:22,272 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-21 22:58:22,481 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-21 22:58:22,490 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-21 22:58:22,651 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-21 22:58:22,655 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-21 22:58:22,812 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-21 22:58:22,817 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-21 22:58:22,979 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-21 22:58:22,984 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-21 22:58:23,176 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-21 22:58:23,181 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-21 22:58:23,292 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-21 22:58:23,297 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-21 22:58:23,424 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-21 22:58:23,430 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-21 22:58:23,520 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-21 22:58:23,524 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-21 22:58:23,618 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-21 22:58:23,641 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-21 22:58:23,652 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-21 22:58:23,786 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-21 22:58:23,794 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-21 22:58:23,884 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-21 22:58:23,889 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-21 22:58:23,989 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-21 22:58:23,995 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-21 22:58:24,092 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-21 22:58:24,111 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-21 22:58:24,212 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-21 22:58:24,219 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-21 22:58:24,298 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-21 22:58:24,323 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-21 22:58:24,411 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-21 22:58:24,416 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-21 22:58:24,510 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-21 22:58:24,516 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-21 22:58:24,608 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-21 22:58:24,631 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h_save
+2024-12-21 22:58:24,824 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h
+2024-12-21 22:58:24,849 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\freertos.c_save
+2024-12-21 22:58:24,952 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\freertos.c
+2024-12-21 22:58:24,994 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c_save
+2024-12-21 22:58:25,275 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c
+2024-12-21 22:58:25,282 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h_save
+2024-12-21 22:58:25,372 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h
+2024-12-21 22:58:25,415 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2024-12-21 22:58:25,576 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c
+2024-12-21 22:58:25,581 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp_save
+2024-12-21 22:58:25,671 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp
+2024-12-21 22:58:25,695 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-12-21 22:58:25,796 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-12-21 22:58:25,827 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-12-21 22:58:25,986 [INFO] CodeEngine:335 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2024-12-21 22:58:26,034 [WARN] IPConfigManager:3618 - IP not found : TIM
+2024-12-21 22:58:26,034 [WARN] CodeGenerator:4152 - IP not found : null
+2024-12-21 22:58:26,070 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\main.h_save
+2024-12-21 22:58:26,217 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\main.h
+2024-12-21 22:58:26,238 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\main.c_save
+2024-12-21 22:58:26,460 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\main.c
+2024-12-21 22:58:26,996 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 237mS.
+2024-12-21 22:58:27,003 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2024-12-21 22:58:27,107 [INFO] ConfigFileManager:1579 - The Die is : DIE413
+2024-12-21 22:58:28,826 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 1823mS.
+2024-12-21 22:58:28,827 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2024-12-21 22:58:28,834 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-21 23:36:06,533 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,634x206,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]

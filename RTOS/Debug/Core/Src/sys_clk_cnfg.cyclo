@@ -1,0 +1,2 @@
+../Core/Src/sys_clk_cnfg.c:5:12:SysClockPLLConfig	3
+../Core/Src/sys_clk_cnfg.c:57:12:SysClockHSEConfig	3

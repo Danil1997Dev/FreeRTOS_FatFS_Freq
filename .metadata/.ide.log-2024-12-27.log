@@ -1,0 +1,168 @@
+2024-12-27 22:37:06,113 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.ClassCastException: class sun.awt.windows.WEmbeddedFrame cannot be cast to class javax.swing.JFrame (sun.awt.windows.WEmbeddedFrame and javax.swing.JFrame are in module java.desktop of loader 'bootstrap')
+2024-12-27 22:37:06,143 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.clock.ClockConfigurationView.activatePlugin(ClockConfigurationView.java:425)
+2024-12-27 22:37:06,144 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.maingui.MainPanel$1.stateChanged(MainPanel.java:382)
+2024-12-27 22:37:06,145 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.fireStateChanged(JTabbedPane.java:446)
+2024-12-27 22:37:06,146 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane$ModelListener.stateChanged(JTabbedPane.java:297)
+2024-12-27 22:37:06,148 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(DefaultSingleSelectionModel.java:148)
+2024-12-27 22:37:06,149 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(DefaultSingleSelectionModel.java:79)
+2024-12-27 22:37:06,151 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(JTabbedPane.java:650)
+2024-12-27 22:37:06,151 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndex(JTabbedPane.java:625)
+2024-12-27 22:37:06,153 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mousePressed(BasicTabbedPaneUI.java:4140)
+2024-12-27 22:37:06,154 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6618)
+2024-12-27 22:37:06,156 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+2024-12-27 22:37:06,157 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+2024-12-27 22:37:06,158 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2024-12-27 22:37:06,160 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+2024-12-27 22:37:06,160 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2024-12-27 22:37:06,161 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2024-12-27 22:37:06,162 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2024-12-27 22:37:06,163 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+2024-12-27 22:37:06,165 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2024-12-27 22:37:06,166 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2024-12-27 22:37:06,167 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2024-12-27 22:37:06,168 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2024-12-27 22:37:06,169 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-12-27 22:37:06,171 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-12-27 22:37:06,173 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2024-12-27 22:37:06,175 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2024-12-27 22:37:06,176 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+2024-12-27 22:37:06,177 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2024-12-27 22:37:06,178 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-12-27 22:37:06,179 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2024-12-27 22:37:06,180 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2024-12-27 22:37:06,181 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2024-12-27 22:37:06,182 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-12-27 22:37:06,183 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-12-27 22:37:06,184 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-12-27 22:37:06,185 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-12-27 22:37:06,186 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-12-27 22:37:06,187 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-12-27 22:39:07,221 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,854x273,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-27 22:39:08,358 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-27 22:39:08,478 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-27 22:39:55,106 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 402002576 Bytes (746586112)
+2024-12-27 22:39:58,585 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 495771624 Bytes (746586112)
+2024-12-27 22:39:59,586 [INFO] ProjectBuilder:2363 - IP not ready for code generation: FATFS
+2024-12-27 22:40:14,600 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FREERTOS
+2024-12-27 22:40:14,600 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SDIO
+2024-12-27 22:40:14,601 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8
+2024-12-27 22:40:14,601 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-27 22:40:14,601 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-27 22:40:14,601 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-27 22:40:14,601 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-27 22:40:14,602 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-27 22:40:14,602 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FATFS
+2024-12-27 22:40:14,604 [INFO] CodeGenerator:896 - code generatio: config db path: D:\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2024-12-27 22:40:14,878 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp_save
+2024-12-27 22:40:15,667 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\license.tmp
+2024-12-27 22:40:15,836 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp_save
+2024-12-27 22:40:16,040 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\gpio.tmp
+2024-12-27 22:40:16,413 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-27 22:40:16,437 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-27 22:40:16,609 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-27 22:40:16,622 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-27 22:40:16,780 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-27 22:40:16,794 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-27 22:40:16,918 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-27 22:40:16,936 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-27 22:40:17,055 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-27 22:40:17,075 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-27 22:40:17,220 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-27 22:40:17,245 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-27 22:40:17,386 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-27 22:40:17,405 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-27 22:40:17,547 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-27 22:40:17,576 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-27 22:40:17,699 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-27 22:40:17,723 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-27 22:40:17,822 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-27 22:40:17,834 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-27 22:40:17,851 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_HalInit.tmp_save
+2024-12-27 22:40:17,967 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_HalInit.tmp
+2024-12-27 22:40:17,983 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_vars.tmp_save
+2024-12-27 22:40:18,065 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_vars.tmp
+2024-12-27 22:40:18,079 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_ext_vars.tmp_save
+2024-12-27 22:40:18,164 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_ext_vars.tmp
+2024-12-27 22:40:18,178 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_inc.tmp_save
+2024-12-27 22:40:18,260 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_inc.tmp
+2024-12-27 22:40:18,278 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-27 22:40:18,289 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp_save
+2024-12-27 22:40:18,403 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_inc.tmp
+2024-12-27 22:40:18,409 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp_save
+2024-12-27 22:40:18,469 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelInit.tmp
+2024-12-27 22:40:18,474 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-12-27 22:40:18,548 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_kernelStart.tmp
+2024-12-27 22:40:18,552 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp_save
+2024-12-27 22:40:18,606 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_typedefs.tmp
+2024-12-27 22:40:18,624 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp_save
+2024-12-27 22:40:18,708 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_vars.tmp
+2024-12-27 22:40:18,714 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp_save
+2024-12-27 22:40:18,794 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_pfp.tmp
+2024-12-27 22:40:18,809 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-12-27 22:40:18,878 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_obj_creat.tmp
+2024-12-27 22:40:18,883 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp_save
+2024-12-27 22:40:18,945 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_default_thread.tmp
+2024-12-27 22:40:18,950 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp_save
+2024-12-27 22:40:19,082 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\rtos_threads.tmp
+2024-12-27 22:40:19,112 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h_save
+2024-12-27 22:40:19,254 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\FreeRTOSConfig.h
+2024-12-27 22:40:19,298 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\freertos.c_save
+2024-12-27 22:40:19,446 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\freertos.c
+2024-12-27 22:40:19,456 [INFO] Middleware:1450 - No code input for Bsp Dependency
+2024-12-27 22:40:19,464 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_HalInit.tmp_save
+2024-12-27 22:40:19,560 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_HalInit.tmp
+2024-12-27 22:40:19,565 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_vars.tmp_save
+2024-12-27 22:40:19,620 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_vars.tmp
+2024-12-27 22:40:19,624 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_ext_vars.tmp_save
+2024-12-27 22:40:19,683 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_ext_vars.tmp
+2024-12-27 22:40:19,687 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_inc.tmp_save
+2024-12-27 22:40:19,742 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\fatfs_inc.tmp
+2024-12-27 22:40:19,761 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\Target\ffconf.h_save
+2024-12-27 22:40:19,906 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\Target\ffconf.h
+2024-12-27 22:40:19,937 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\Target\bsp_driver_sd.c_save
+2024-12-27 22:40:20,043 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\Target\bsp_driver_sd.c
+2024-12-27 22:40:20,066 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\Target\bsp_driver_sd.h_save
+2024-12-27 22:40:20,161 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\Target\bsp_driver_sd.h
+2024-12-27 22:40:20,177 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\Target\sd_diskio.h_save
+2024-12-27 22:40:20,261 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\Target\sd_diskio.h
+2024-12-27 22:40:20,274 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\Target\sd_diskio.c_save
+2024-12-27 22:40:20,398 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\Target\sd_diskio.c
+2024-12-27 22:40:20,421 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\App\fatfs.c_save
+2024-12-27 22:40:20,519 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\App\fatfs.c
+2024-12-27 22:40:20,530 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\FATFS\App\fatfs.h_save
+2024-12-27 22:40:20,623 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\FATFS\App\fatfs.h
+2024-12-27 22:40:20,666 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c_save
+2024-12-27 22:40:20,887 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_it.c
+2024-12-27 22:40:20,916 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h_save
+2024-12-27 22:40:21,038 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_it.h
+2024-12-27 22:40:21,093 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c_save
+2024-12-27 22:40:21,314 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_msp.c
+2024-12-27 22:40:21,326 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp_save
+2024-12-27 22:40:21,404 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\MXTmpFiles\system.tmp
+2024-12-27 22:40:21,434 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-12-27 22:40:21,535 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-12-27 22:40:21,568 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-12-27 22:40:21,686 [INFO] CodeEngine:335 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\stm32f4xx_hal_conf.h
+2024-12-27 22:40:21,754 [INFO] ApiDbMcu:508 - Load IP Config File for SDIO
+2024-12-27 22:40:21,776 [INFO] ApiDbMcu:508 - Load IP Config File for TIM5
+2024-12-27 22:40:21,781 [INFO] ApiDbMcu:508 - Load IP Config File for USART3
+2024-12-27 22:40:21,787 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2024-12-27 22:40:21,792 [WARN] IPConfigManager:3618 - IP not found : TIM
+2024-12-27 22:40:21,793 [WARN] CodeGenerator:4152 - IP not found : null
+2024-12-27 22:40:21,840 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Inc\main.h_save
+2024-12-27 22:40:21,980 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Inc\main.h
+2024-12-27 22:40:22,010 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\RTOS\RTOS\Core\Src\main.c_save
+2024-12-27 22:40:22,260 [INFO] CodeEngine:279 - Generated code: D:\STM32\RTOS\RTOS\Core\Src\main.c
+2024-12-27 22:40:22,865 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 321mS.
+2024-12-27 22:40:22,876 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2024-12-27 22:40:22,991 [INFO] ConfigFileManager:1579 - The Die is : DIE413
+2024-12-27 22:40:23,004 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-12-27 22:40:23,020 [INFO] ApiDbMcu:508 - Load IP Config File for LWIP
+2024-12-27 22:40:23,038 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-12-27 22:40:23,061 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-12-27 22:40:23,079 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2024-12-27 22:40:24,463 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-12-27 22:40:28,124 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 5247mS.
+2024-12-27 22:40:28,125 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2024-12-27 22:40:28,128 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-27 22:40:39,255 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,637x218,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
